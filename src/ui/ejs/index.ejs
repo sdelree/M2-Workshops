@@ -17,7 +17,9 @@
     <li class="media my-4">
         <div class="media-body">
             <h5 class="mt-0 mb-1"><a href="/workshop/<%= workshop.name %>"><%= workshop.name %></a></h5>
-            <%= workshop.description %>        </div>        
+            <%= workshop.description %>    
+            <a href="/remove-workshop/<%= workshop.name %>">Supprimer</a>    
+        </div>        
     </li>
 <% }); %>
 </ul>
